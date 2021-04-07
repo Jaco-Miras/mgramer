@@ -1,0 +1,24 @@
+.imageGrid {
+    margin: 20px auto;
+    display: grid;
+    margin-left: 5px;
+    margin-right: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.img__wrap {
+    overflow: hidden;
+    height: 0;
+    padding: 50% 0;
+    position: relative;
+    opacity: 0.8;
+}
+
+.img__wrap img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
